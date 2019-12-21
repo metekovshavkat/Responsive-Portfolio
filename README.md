@@ -1,4 +1,4 @@
-# Basic-Portfolio
+# Responsive Portfolio
 
 Functionality of the the website so far is:
     1. Nav bar
