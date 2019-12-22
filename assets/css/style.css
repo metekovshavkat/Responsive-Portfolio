@@ -89,7 +89,16 @@ nav a {
 nav a:first-child {
   border-left: 0 none;
 }
+img {
+  float: left;
+}
+}
 
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
 /*Footer*/
 
 footer {
