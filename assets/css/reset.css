@@ -1,21 +1,4 @@
-/* 
-*/
-{
-  /* Positioning */
-  margin: 0;
-  vertical-align: baseline;
 
-  /* Box-model */
-  padding: 0;
-
-  /* Typography */
-  font-size: 100%;
-  font: inherit;
-
-  /* Visual */
-  border: 0;
-  
-}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -28,7 +11,7 @@ header,
 hgroup,
 menu,
 nav,
-section { display: block; }
+section { display: grid; }
 
 body { line-height: 1; }
 
@@ -49,10 +32,3 @@ q:after {
 
 }
 
-table {
-  
-  /* Visual */
-  border-collapse: collapse;
-  border-spacing: 0;
-
-}
